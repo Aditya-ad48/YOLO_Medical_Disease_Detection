@@ -5,7 +5,7 @@ This project presents a real-time web application that detects and localizes 14 
 ⚠️ This tool is designed for educational and research purposes. It does not replace professional medical advice.
 
 🌐 **Try the Live App**  
-🚀 [Click here to use the app](Replace with your deployed Streamlit URL)
+🚀 [Click here to use the app](https://yolomedicaldiseasedetection-puun2srapg5unq5i2vkhdj.streamlit.app/)
 
 ## 🧠 Motivation
 Interpreting chest radiographs is one of the most complex tasks in radiology due to overlapping structures and subtle anomalies. This project aims to:
@@ -64,12 +64,12 @@ This project uses a public dataset provided by the VinBigData Institute, consist
 4. The result is displayed on the web app within seconds
 
 ## 📈 Model Info
-- Model: YOLOv8n (Nano) for fast inference
-- Input size: 512×512
-- Trained for: 100+ epochs
-- Metrics:
-  - mAP@0.5: ~0.68
-  - mAP@0.5:0.95: ~0.43
+- Model: YOLOv8x (for improved accuracy)
+- Input size: 640×640
+- Trained for: 30 epochs
+- GPUs used: 2 (Device 0, 1)
+- Batch size: 16
+- Training environment: Multi-GPU (CUDA enabled)
 
 Training was done using a pre-processed version of the dataset (DICOM → PNG conversion already done).
 
@@ -80,31 +80,14 @@ Training was done using a pre-processed version of the dataset (DICOM → PNG co
 **Output**  
 (Include image with bounding boxes and class labels)
 
-## 🧰 Local Setup (Optional)
-Want to run it locally? Follow these steps:
-
-git clone https://github.com/yourusername/chest-xray-yolov8.git cd chest-xray-yolov8 pip install -r requirements.txt streamlit run app.py
-
-markdown
-Copy
-Edit
-
-Make sure `best.pt` is in the root folder or hosted externally and downloaded dynamically in `app.py`.
-
 ## 📤 Deployment Details
 ✅ Deployed on Streamlit Cloud  
 ✅ External users can upload images directly in-browser  
-✅ Model is either bundled (if <100MB) or loaded via cloud (Google Drive / Hugging Face Hub)
 
 ## 🙏 Acknowledgements
 - VinBigData for the dataset and medical insights
 - Ultralytics for YOLOv8
 - Streamlit for their simple and fast deployment platform
+ 
 
-## 👨‍💻 Author
-Aditya Ahirwar  
-📧 aditya.ahirwar2005@gmail.com  
-🔗 [github.com/yourusername](https://github.com/yourusername)
 
-## 📜 License
-This project is licensed under the MIT License.
