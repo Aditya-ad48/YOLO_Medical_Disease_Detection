@@ -75,7 +75,7 @@ Training was done using a pre-processed version of the dataset (DICOM → PNG co
 
 ## 🧪 Example Output
 **Input**  
-(Use your actual image paths or links if deployed)
+(https://github.com/Aditya-ad48/YOLO_Medical_Disease_Detection/blob/main/002a34c58c5b758217ed1f584ccbcfe9.png?raw=true)
 
 **Output**  
 (Include image with bounding boxes and class labels)
