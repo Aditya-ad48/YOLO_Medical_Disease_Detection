@@ -6,6 +6,7 @@ from PIL import Image
 
 # Hugging Face direct model link
 MODEL_URL = "https://huggingface.co/aditya1310/yolov8-model/resolve/main/yolov8_best_model.pt"
+
 MODEL_PATH = "yolov8_best_model.pt"
 
 # Download the model if not already present
