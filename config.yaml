@@ -1,0 +1,18 @@
+names:
+- Aortic enlargement
+- Cardiomegaly
+- Pleural thickening
+- Pulmonary fibrosis
+- Nodule/Mass
+- Lung Opacity
+- Pleural effusion
+- Other lesion
+- Infiltration
+- ILD
+- Calcification
+- Consolidation
+- Atelectasis
+- Pneumothorax
+nc: 14
+train: /kaggle/working/train.txt
+val: /kaggle/working/val.txt
