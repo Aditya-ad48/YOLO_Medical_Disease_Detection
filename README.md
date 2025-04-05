@@ -75,7 +75,7 @@ Training was done using a pre-processed version of the dataset (DICOM → PNG co
 
 ## 🧪 Example Output
 **Input**  
-(002a34c58c5b758217ed1f584ccbcfe9.png)
+002a34c58c5b758217ed1f584ccbcfe9.png
 
 **Output**  
 (Include image with bounding boxes and class labels)
