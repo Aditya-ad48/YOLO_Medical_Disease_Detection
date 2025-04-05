@@ -84,7 +84,7 @@ Training was done using a pre-processed version of the dataset (DICOM → PNG co
 ✅ Deployed on Streamlit Cloud  
 ✅ External users can upload images directly in-browser  
 
-## 🙏 Acknowledgements
+##  Acknowledgements
 - VinBigData for the dataset and medical insights
 - Ultralytics for YOLOv8
 - Streamlit for their simple and fast deployment platform
