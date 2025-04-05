@@ -78,7 +78,7 @@ Training was done using a pre-processed version of the dataset (DICOM → PNG co
 ![Input](002a34c58c5b758217ed1f584ccbcfe9.png)
 
 **Output**  
-(Include image with bounding boxes and class labels)
+![Output](9709d053b6c74b3d7548857728cd67ae1d31ac8622ce5dca8280309b.jpg)
 
 ## 📤 Deployment Details
 ✅ Deployed on Streamlit Cloud  
