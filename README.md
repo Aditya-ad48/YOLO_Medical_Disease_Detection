@@ -5,7 +5,7 @@ This project presents a real-time web application that detects and localizes 14 
 ⚠️ This tool is designed for educational and research purposes. It does not replace professional medical advice.
 
 🌐 **Try the Live App**  
-🚀 [Click here to use the app](https://yolomedicaldiseasedetection-puun2srapg5unq5i2vkhdj.streamlit.app/)
+🚀 [Click here to use the app](https://yolomedicaldiseasedetection-fiz4gqfebk7rqddppafw7n.streamlit.app/)
 
 ## 🧠 Motivation
 Interpreting chest radiographs is one of the most complex tasks in radiology due to overlapping structures and subtle anomalies. This project aims to:
