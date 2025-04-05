@@ -21,7 +21,8 @@ This project uses a public dataset provided by the VinBigData Institute, consist
 ✅ 14 thoracic abnormalities  
 🧑‍⚕️ Expert annotations from certified radiologists using the VinLab platform  
 
-**Dataset paper:** [VinDr-CXR: An open dataset of chest X-rays with radiologist's annotations](Link to paper)
+**Dataset paper:** [VinDr-CXR: An open dataset of chest X-rays with radiologist's annotations](https://arxiv.org/pdf/2012.15029)
+
 
 ### Classes Detected:
 - Aortic enlargement
